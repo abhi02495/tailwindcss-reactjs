@@ -1,0 +1,39 @@
+.main {
+    @apply flex min-h-screen items-center justify-center bg-white
+}
+
+.main-div {
+    @apply flex flex-col h-auto justify-center shadow-xl rounded-lg md:flex-row md:w-auto
+}
+
+.headphone-image {
+    @apply object-contain m-4 h-72 hover:scale-105 transition duration-100 md:h-36
+}
+
+.free-shipping-logo {
+    @apply mt-4 ml-4 p-2 bg-black text-white w-fit font-sans rounded-3xl text-xs
+}
+
+.product-name {
+    @apply my-2 mx-4 text-black text-left
+}
+
+.main-price {
+    @apply mt-4 mb-2 ml-4 line-through text-xs
+}
+
+.discount-price {
+    @apply mb-1 ml-4 text-2xl font-bold
+}
+
+.offer-statement {
+    @apply text-xs text-slate-500 text-opacity-90 ml-4 mb-2 font-semibold
+}
+
+.button-div {
+    @apply flex justify-center m-4
+}
+
+.button-addToCart {
+    @apply text-white font-semibold pt-4 pb-4 rounded-md bg-blue-500 w-full hover:bg-blue-700 hover:scale-105 transition duration-200 border-b-8 border-b-blue-700 
+}
